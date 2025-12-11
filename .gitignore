@@ -1,0 +1,14 @@
+datasets/VIRAT/videos_original
+datasets/VIRAT/viratannotations
+datasets/VIRAT/generated_clips
+
+datasets/MEVA/videos
+datasets/MEVA/meva-data-repo
+datasets/MEVA/generated_clips
+
+datasets/queries_raw.tsv
+
+outputs
+nohup.out
+
+__pycache__

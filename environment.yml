@@ -1,0 +1,28 @@
+name: mllm-embeddings-sovabench
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - transformers
+      - opencv-python
+      - sentence-transformers
+      - openai
+      - matplotlib
+      - accelerate
+      - pandas
+      - qwen-vl-utils
+      - torch==2.7.0
+      - torchvision
+      - ffmpeg
+      - numpy
+      - pandas
+      - scikit-learn
+      - nltk
+      - tqdm
+      - protobuf
+      - sentencepiece
+      - decord
+      - imageio
