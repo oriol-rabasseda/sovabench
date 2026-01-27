@@ -27,6 +27,10 @@ def video_to_frames(video_path, fps_sample, min_frames=2, nframes=None):
             j += 1
             if j >= len(image_list_idx):
                 break
+        
+        if j >= len(image_list_idx):
+                break
+                
         i += 1
     video.release()
 

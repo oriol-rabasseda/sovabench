@@ -1,7 +1,7 @@
 # SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large Language Models
 
 Official repository for the WACV Workshops 2026 paper:
-> **SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large Language Models** (link TBD)
+> [**SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large Language Models**](https://arxiv.org/abs/2601.04824)
 
 We introduced **SOVABench (Surveillance Opposite Vehicle Action Benchmark)**, a challenging benchmark for action retrieval in vehicle-related surveillance scenarios. Its two complementary protocols (**inter-pair and intra-pair retrieval**) jointly provide both a global assessment of action-level representation quality and a measure of temporal direction understanding, enabling analysis of failure modes in action description. In addition, we construct the **MLLM-to-Embedding framework** to obtain sentence-level embeddings from MLLMs, enabling both retrieval and classification. Our experiments demonstrate that even a **simple, instruction-following framework** improves performance compared to contrastive methods, while providing interpretable representations.
 
