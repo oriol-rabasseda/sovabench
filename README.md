@@ -194,9 +194,10 @@ If you use this repository, please cite:
   @inproceedings{sovabench2026rabasseda,
     title={SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large Language Models},
     author={Rabasseda, Oriol and Li, Zenjie and Nasrollahi, Kamal and Escalera, Sergio},
+    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
     month={March},
     year={2026},
-    pages={TBD}
+    pages={95-104}
   }
 ```
 
