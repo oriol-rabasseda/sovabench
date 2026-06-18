@@ -6,8 +6,6 @@ datasets/MEVA/videos
 datasets/MEVA/meva-data-repo
 datasets/MEVA/generated_clips
 
-datasets/queries_raw.tsv
-
 outputs
 nohup.out
 
