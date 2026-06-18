@@ -23,12 +23,12 @@ python ./src/mllm_embeddings_sovabench/datasets/activity_augmentation.py \
 python ./src/mllm_embeddings_sovabench/datasets/generate_files.py \
     --meva-dir ./datasets/MEVA/generated_clips \
     --virat-dir ./datasets/VIRAT/generated_clips \
-    --output-file ./datasets/sovabench_intrapair.tsv
+    --output-file ./datasets/queries_raw.tsv
 
 python ./src/mllm_embeddings_sovabench/datasets/correct_overlapping.py \
     --question-path ./datasets/queries_raw.tsv \
     --output-interpair ./datasets/sovabench_interpair_queries.tsv \
-    --output-intrapair ./datasets/queries_raw.tsv \
+    --output-intrapair ./datasets/sovabench_intrapair.tsv \
     --base-path ../
 
 python ./src/mllm_embeddings_sovabench/datasets/add_distractors.py \
