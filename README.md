@@ -98,7 +98,7 @@ The MLLM-to-Embedding framework treats MLLMs as black-box visual describers. Ins
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/orabasseda/mllm_embedding.git
+git clone https://github.com/orabasseda/sovabench.git
 cd mllm_embedding
 ```
 
